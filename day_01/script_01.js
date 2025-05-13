@@ -256,13 +256,13 @@ console.log(typeof names.toString()); // Jose,Vitor,JavaScript,Brook
 // Por padrão, ele usa uma vírgula para separar, mas você pode passar outra string para separar os
 // itens, como um espaço, traço, etc.
 
-const namesToHoin = ["José", "Vitor", "De", "Sousa", "Feitosa"]
+const namesToHoin = ["José", "Vitor", "De", "Sousa", "Feitosa"];
 
-console.log(namesToHoin.join()) // Asabeneh,Mathias,Elias,Brook
-console.log(namesToHoin.join('')) //AsabenehMathiasEliasBrook
-console.log(namesToHoin.join(' ')) //Asabeneh Mathias Elias Brook
-console.log(namesToHoin.join(', ')) //Asabeneh, Mathias, Elias, Brook
-console.log(namesToHoin.join(' # ')) //Asabeneh # Mathias # Elias # Brook
+console.log(namesToHoin.join()); // José,Vitor,De,Sousa,Feitosa
+console.log(namesToHoin.join('')); // JoséVitorDeSousaFeitosa
+console.log(namesToHoin.join(' ')); // José Vitor De Sousa Feitosa
+console.log(namesToHoin.join(', ')); // José, Vitor, De, Sousa, Feitosa
+console.log(namesToHoin.join(' # ')); // José # Vitor # De # Sousa # Feitosa
 
 // 9 - slice: Retorna uma cópia de uma parte do Array.
 // Slice: É uma operação para cortar vários itens de uma lista (ou outra sequência) entre duas posições.
