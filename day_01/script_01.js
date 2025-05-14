@@ -65,7 +65,7 @@ const arr = [
   { skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] },
 ] // arr containing different data types
 
-console.log(arr)
+console.log(arr);
 
 // Usando o método split para criar arrays
 // O método split() é usado para dividir uma string em substrings, resultando em um array.
